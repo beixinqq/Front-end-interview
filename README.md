@@ -1,4 +1,3 @@
-
 # Front-end-interview
 `学会发散思维 分析总结！`
 ***
@@ -45,3 +44,29 @@ table { border-collapse:collapse; border-spacing:0; } 
 * “迪米特”法则
 * 单一职责原则
 
+###javascript变态题
+```js
+(function(){
+    return typeof arguments;//"object"
+})();
+```
+
+```js
+
+```
+
+```js
+
+```
+
+```js
+
+```
+
+```js
+
+```
+
+```js
+
+```
