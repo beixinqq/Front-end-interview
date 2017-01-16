@@ -135,6 +135,7 @@ new f() instanceof f;//false
 ```js
 with (function(x, undefined){}) length;//2
 ```
+****
 ```js
 var x = 1;
 var y = 0;
@@ -143,4 +144,15 @@ function add(n){n=n+1;}
 y = add(x);
 function add(n){n=n+3;}
 z = add(x);
+```
+```js
+for(i=0, j=0; i<10, j<6; i++, j++){
+k = i + j;
+}
+```
+```js
+ (function(){
+        var a=b=5;
+    })();
+    console.log(b);
 ```
