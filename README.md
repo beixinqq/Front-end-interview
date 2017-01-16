@@ -50,21 +50,24 @@ table { border-collapse:collapse; border-spacing:0; } 
     return typeof arguments;//"object"
 })();
 ```
-
 ```js
-
+var f = function g(){ return 23; };
+typeof g();//报错
 ```
-
 ```js
-
+(function(x){
+    delete x;
+    return x;//1
+})(1);
 ```
-
 ```js
-
+var y = 1, x = y = typeof x;
+x;//"undefined"
 ```
-
 ```js
-
+(function f(f){
+    return typeof f();//"number"
+})(function(){ return 1; });
 ```
 
 ```js
