@@ -1,3 +1,4 @@
+
 # Front-end-interview
 `学会发散思维 分析总结！`
 ***
@@ -27,6 +28,7 @@ fieldset, img { border:0; }
 button, input, select, textarea { font-size:100%; }
 table { border-collapse:collapse; border-spacing:0; } 
 ```
+* 对BFC规范的理解
 ***
 
 ###javascript经典面试题
