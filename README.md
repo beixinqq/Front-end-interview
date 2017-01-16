@@ -122,5 +122,25 @@ typeof typeof x;//"string"
 })();
 ```
 ```js
-
+(function f(){
+    function f(){ return 1; }
+    return f();//2
+    function f(){ return 2; }
+})();
+```
+```js
+function f(){ return f; }
+new f() instanceof f;//false
+```
+```js
+with (function(x, undefined){}) length;//2
+```
+```js
+var x = 1;
+var y = 0;
+var z = 0;
+function add(n){n=n+1;}
+y = add(x);
+function add(n){n=n+3;}
+z = add(x);
 ```
