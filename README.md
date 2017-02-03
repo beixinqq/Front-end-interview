@@ -40,9 +40,7 @@ table { border-collapse:collapse; border-spacing:0; } 
 1. 请你谈谈Cookie的弊端
 * 简单说一下浏览器本地存储是怎样的
 * web storage和cookie的区别
-* 组合/聚合复用原则
-* “迪米特”法则
-* 单一职责原则
+
 
 ###javascript变态题
 ```js
